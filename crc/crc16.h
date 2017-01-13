@@ -1,4 +1,3 @@
-
 #ifndef __CRC16_H
 #define __CRC16_H
 
@@ -15,4 +14,3 @@ unsigned int crc16(unsigned char * crcptr, unsigned int crc_len);
 unsigned int sum16(unsigned char * crcptr, unsigned int crc_len);
 
 #endif
-
