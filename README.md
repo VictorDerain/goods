@@ -1,1 +1,1 @@
-# goods
+# Some goods for use.
