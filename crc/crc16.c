@@ -1,10 +1,10 @@
 #include <crc16.h>
 
-unsigned int crctable[256];
+static unsigned int crctable[256];
 
 void MakeCRC16Table(void)
 {
- unsigned int r;
+ unsigned int r=0;
  unsigned int i,j;
   for(i=0; i<256; i++)
    {
@@ -46,8 +46,6 @@ unsigned int i;
 for(i=0;i<crc_len;i++)
 {
 sum_temp=+ *(crcptr+i);
-
 }
 return sum_temp;
 }
-
